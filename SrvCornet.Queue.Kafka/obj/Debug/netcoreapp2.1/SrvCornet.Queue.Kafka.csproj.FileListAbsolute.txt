@@ -1,0 +1,6 @@
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\bin\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.deps.json
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\bin\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.dll
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.csprojAssemblyReference.cache
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.csproj.CoreCompileInputs.cache
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.AssemblyInfoInputs.cache
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.AssemblyInfo.cs

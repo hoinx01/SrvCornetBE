@@ -1,0 +1,6 @@
+F:\DotnetCore\SrvCornetBE\SrvCornet.Dal.Mongo\bin\Debug\netcoreapp2.1\SrvCornet.Dal.Mongo.deps.json
+F:\DotnetCore\SrvCornetBE\SrvCornet.Dal.Mongo\bin\Debug\netcoreapp2.1\SrvCornet.Dal.Mongo.dll
+F:\DotnetCore\SrvCornetBE\SrvCornet.Dal.Mongo\obj\Debug\netcoreapp2.1\SrvCornet.Dal.Mongo.csprojAssemblyReference.cache
+F:\DotnetCore\SrvCornetBE\SrvCornet.Dal.Mongo\obj\Debug\netcoreapp2.1\SrvCornet.Dal.Mongo.csproj.CoreCompileInputs.cache
+F:\DotnetCore\SrvCornetBE\SrvCornet.Dal.Mongo\obj\Debug\netcoreapp2.1\SrvCornet.Dal.Mongo.AssemblyInfoInputs.cache
+F:\DotnetCore\SrvCornetBE\SrvCornet.Dal.Mongo\obj\Debug\netcoreapp2.1\SrvCornet.Dal.Mongo.AssemblyInfo.cs
