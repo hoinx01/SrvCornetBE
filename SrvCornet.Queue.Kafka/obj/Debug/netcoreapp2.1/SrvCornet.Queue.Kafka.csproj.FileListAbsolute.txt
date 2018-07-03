@@ -4,3 +4,9 @@ F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCorne
 F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.csproj.CoreCompileInputs.cache
 F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.AssemblyInfoInputs.cache
 F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.AssemblyInfo.cs
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\bin\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.pdb
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\bin\Debug\netcoreapp2.1\SrvCornet.Json.dll
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\bin\Debug\netcoreapp2.1\SrvCornet.Json.pdb
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.csproj.CopyComplete
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.dll
+F:\DotnetCore\SrvCornetBE\SrvCornet.Queue.Kafka\obj\Debug\netcoreapp2.1\SrvCornet.Queue.Kafka.pdb

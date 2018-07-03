@@ -3,3 +3,7 @@ F:\DotnetCore\SrvCornetBE\SrvCornet.Background\bin\Debug\netcoreapp2.1\SrvCornet
 F:\DotnetCore\SrvCornetBE\SrvCornet.Background\obj\Debug\netcoreapp2.1\SrvCornet.Background.csproj.CoreCompileInputs.cache
 F:\DotnetCore\SrvCornetBE\SrvCornet.Background\obj\Debug\netcoreapp2.1\SrvCornet.Background.AssemblyInfoInputs.cache
 F:\DotnetCore\SrvCornetBE\SrvCornet.Background\obj\Debug\netcoreapp2.1\SrvCornet.Background.AssemblyInfo.cs
+F:\DotnetCore\SrvCornetBE\SrvCornet.Background\bin\Debug\netcoreapp2.1\SrvCornet.Background.pdb
+F:\DotnetCore\SrvCornetBE\SrvCornet.Background\obj\Debug\netcoreapp2.1\SrvCornet.Background.csprojAssemblyReference.cache
+F:\DotnetCore\SrvCornetBE\SrvCornet.Background\obj\Debug\netcoreapp2.1\SrvCornet.Background.dll
+F:\DotnetCore\SrvCornetBE\SrvCornet.Background\obj\Debug\netcoreapp2.1\SrvCornet.Background.pdb

@@ -2,18 +2,17 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Confluent.Kafka/1.0.0-experimental-4": {
+      "Confluent.Kafka/0.11.4": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.1",
           "System.Console": "4.3.0",
           "System.Linq": "4.3.0",
-          "System.Memory": "4.5.0-preview1-26216-02",
-          "System.Runtime.CompilerServices.Unsafe": "4.5.0-preview1-26216-02",
+          "System.Runtime.CompilerServices.Unsafe": "4.0.0",
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0",
           "System.Threading": "4.3.0",
-          "librdkafka.redist": "0.11.5-PRE5"
+          "librdkafka.redist": "0.11.4"
         },
         "compile": {
           "lib/netstandard1.3/Confluent.Kafka.dll": {}
@@ -22,7 +21,7 @@
           "lib/netstandard1.3/Confluent.Kafka.dll": {}
         }
       },
-      "librdkafka.redist/0.11.5-PRE5": {
+      "librdkafka.redist/0.11.4": {
         "type": "package",
         "build": {
           "build/_._": {}
@@ -373,28 +372,6 @@
           "lib/netstandard1.6/System.Linq.dll": {}
         }
       },
-      "System.Memory/4.5.0-preview1-26216-02": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0"
-        },
-        "compile": {
-          "ref/netcoreapp2.1/System.Memory.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {}
-        },
-        "runtimeTargets": {
-          "runtimes/unix/lib/netcoreapp2.1/System.Memory.dll": {
-            "assetType": "runtime",
-            "rid": "unix"
-          },
-          "runtimes/win/lib/netcoreapp2.1/System.Memory.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
-        }
-      },
       "System.Reflection/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -442,13 +419,16 @@
           "ref/netstandard1.5/System.Runtime.dll": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.5.0-preview1-26216-02": {
+      "System.Runtime.CompilerServices.Unsafe/4.0.0": {
         "type": "package",
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        },
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
       "System.Runtime.Extensions/4.3.0": {
@@ -538,12 +518,12 @@
     }
   },
   "libraries": {
-    "Confluent.Kafka/1.0.0-experimental-4": {
-      "sha512": "YPwcpQYWV4ncypoplY+Bm3PWuG3IpLo0IiJJn+dreFLb09/E2Vn91YS2tQDEnZOs8vJkoaEjiRp5nifiG/E2CQ==",
+    "Confluent.Kafka/0.11.4": {
+      "sha512": "+SOy+WoPa02rB+wn1XTJJaIpnCLBtNLtEqy3c3efpjmgWVJn10N/PEI7Y82wzec4N4LSrG01FACT5AOOaWGsdw==",
       "type": "package",
-      "path": "confluent.kafka/1.0.0-experimental-4",
+      "path": "confluent.kafka/0.11.4",
       "files": [
-        "confluent.kafka.1.0.0-experimental-4.nupkg.sha512",
+        "confluent.kafka.0.11.4.nupkg.sha512",
         "confluent.kafka.nuspec",
         "lib/net45/Confluent.Kafka.dll",
         "lib/net45/Confluent.Kafka.xml",
@@ -553,10 +533,10 @@
         "lib/netstandard1.3/Confluent.Kafka.xml"
       ]
     },
-    "librdkafka.redist/0.11.5-PRE5": {
-      "sha512": "DdCa0X84YeFJTrez5KvseoaCtz2tUJxF3Vkys1tpqsik/vwCnaMtzyxKuI7TBXr1sk4HC72M6vvznMLmjLkqfQ==",
+    "librdkafka.redist/0.11.4": {
+      "sha512": "7/tR5bBcwlNAnYpbcXh0gfsn492l8it0vrBY7qXCvZZ5SvJ8u3mF9jQVrYBoJeoKuue9UBqT/YjcEwkfOrkzZw==",
       "type": "package",
-      "path": "librdkafka.redist/0.11.5-pre5",
+      "path": "librdkafka.redist/0.11.4",
       "files": [
         "CONFIGURATION.md",
         "LICENSES.txt",
@@ -569,7 +549,7 @@
         "build/native/lib/win7/x86/win7-x86-Release/v120/librdkafka.lib",
         "build/native/lib/win7/x86/win7-x86-Release/v120/librdkafkacpp.lib",
         "build/native/librdkafka.redist.targets",
-        "librdkafka.redist.0.11.5-pre5.nupkg.sha512",
+        "librdkafka.redist.0.11.4.nupkg.sha512",
         "librdkafka.redist.nuspec",
         "runtimes/linux-x64/native/debian9-librdkafka.so",
         "runtimes/linux-x64/native/librdkafka.so",
@@ -1489,37 +1469,6 @@
         "system.linq.nuspec"
       ]
     },
-    "System.Memory/4.5.0-preview1-26216-02": {
-      "sha512": "/qkNiTfseQ35guuSKxqw6cjEYnh+ijwI941QS5669VtTSSXOoyHWUO6JARIvSQ+A2yYFVdKEvTkKrMfaqdyOaw==",
-      "type": "package",
-      "path": "system.memory/4.5.0-preview1-26216-02",
-      "files": [
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "lib/netstandard1.1/System.Memory.dll",
-        "lib/netstandard1.1/System.Memory.xml",
-        "lib/netstandard2.0/System.Memory.dll",
-        "lib/netstandard2.0/System.Memory.xml",
-        "ref/netcoreapp2.1/System.Memory.dll",
-        "ref/netcoreapp2.1/System.Memory.xml",
-        "ref/netstandard1.1/System.Memory.dll",
-        "ref/netstandard1.1/System.Memory.xml",
-        "ref/netstandard2.0/System.Memory.dll",
-        "ref/netstandard2.0/System.Memory.xml",
-        "ref/uap10.0.16300/System.Memory.dll",
-        "ref/uap10.0.16300/System.Memory.xml",
-        "runtimes/unix/lib/netcoreapp2.1/System.Memory.dll",
-        "runtimes/unix/lib/netcoreapp2.1/System.Memory.xml",
-        "runtimes/win/lib/netcoreapp2.1/System.Memory.dll",
-        "runtimes/win/lib/netcoreapp2.1/System.Memory.xml",
-        "runtimes/win/lib/uap10.0.16300/System.Memory.dll",
-        "runtimes/win/lib/uap10.0.16300/System.Memory.xml",
-        "system.memory.4.5.0-preview1-26216-02.nupkg.sha512",
-        "system.memory.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
-      ]
-    },
     "System.Reflection/4.3.0": {
       "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
       "type": "package",
@@ -1799,25 +1748,17 @@
         "system.runtime.nuspec"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/4.5.0-preview1-26216-02": {
-      "sha512": "YH6QzLUg6VzyejRsW9no/xlulcpKjfOC27jWmijyhw8A42ldukXHQDSaE0CP+khK0m2iqAaXoQ0BU49FUDw7Lw==",
+    "System.Runtime.CompilerServices.Unsafe/4.0.0": {
+      "sha512": "LDvjxLx2fkThOFo/SC+901fJrh5artALmgzeSqnVxzvFp4q3HO8BkeLyshPdcbs5zpN7Xh9G23M6sDhgIPbG9A==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.5.0-preview1-26216-02",
+      "path": "system.runtime.compilerservices.unsafe/4.0.0",
       "files": [
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
-        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.5.0-preview1-26216-02.nupkg.sha512",
-        "system.runtime.compilerservices.unsafe.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "system.runtime.compilerservices.unsafe.4.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec"
       ]
     },
     "System.Runtime.Extensions/4.3.0": {
@@ -2235,7 +2176,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Confluent.Kafka >= 1.0.0-experimental-4",
+      "Confluent.Kafka >= 0.11.4",
       "Microsoft.NETCore.App >= 2.1.0",
       "NLog >= 4.5.6",
       "SrvCornet.Json >= 1.0.0"
@@ -2288,7 +2229,7 @@
         "dependencies": {
           "Confluent.Kafka": {
             "target": "Package",
-            "version": "[1.0.0-experimental-4, )"
+            "version": "[0.11.4, )"
           },
           "Microsoft.NETCore.App": {
             "suppressParent": "All",

@@ -1,14 +1,16 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "7553ae1b6f22f04987031459faf5b6af5ca6553e"
+    "signature": "c2dfaaf2063ca81dbd7575624e414a2b41a102fb"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "SrvCornet.Queue.Kafka/1.0.0": {
         "dependencies": {
-          "Confluent.Kafka": "0.11.4"
+          "Confluent.Kafka": "0.11.4",
+          "NLog": "4.5.6",
+          "SrvCornet.Json": "1.0.0"
         },
         "runtime": {
           "SrvCornet.Queue.Kafka.dll": {}
@@ -87,6 +89,22 @@
             "rid": "win7-x86",
             "assetType": "native",
             "fileVersion": "1.2.8.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "NLog/4.5.6": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.5.6.7874"
           }
         }
       },
@@ -192,6 +210,14 @@
         "dependencies": {
           "System.Runtime": "4.3.0"
         }
+      },
+      "SrvCornet.Json/1.0.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "SrvCornet.Json.dll": {}
+        }
       }
     }
   },
@@ -214,6 +240,20 @@
       "sha512": "sha512-7/tR5bBcwlNAnYpbcXh0gfsn492l8it0vrBY7qXCvZZ5SvJ8u3mF9jQVrYBoJeoKuue9UBqT/YjcEwkfOrkzZw==",
       "path": "librdkafka.redist/0.11.4",
       "hashPath": "librdkafka.redist.0.11.4.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "NLog/4.5.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FZIdeH92NTu6ePm+QbLT9pyd5vY9B+GYX8S2bh6ZxJC+XSTZDhZ6EHWxDzyBIEjtIb+nSBJfIgdMuQNQEYMqbQ==",
+      "path": "nlog/4.5.6",
+      "hashPath": "nlog.4.5.6.nupkg.sha512"
     },
     "System.Collections/4.3.0": {
       "type": "package",
@@ -333,6 +373,11 @@
       "sha512": "sha512-LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
+    },
+    "SrvCornet.Json/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Iken.Core
+namespace SrvCornet.Background
 {
     public class DependencyManager
     {
