@@ -1,0 +1,5 @@
+F:\DotnetCore\SrvCornetBE\SrvCornet.Core\bin\Debug\netcoreapp2.1\SrvCornet.Core.deps.json
+F:\DotnetCore\SrvCornetBE\SrvCornet.Core\bin\Debug\netcoreapp2.1\SrvCornet.Core.dll
+F:\DotnetCore\SrvCornetBE\SrvCornet.Core\obj\Debug\netcoreapp2.1\SrvCornet.Core.csproj.CoreCompileInputs.cache
+F:\DotnetCore\SrvCornetBE\SrvCornet.Core\obj\Debug\netcoreapp2.1\SrvCornet.Core.AssemblyInfoInputs.cache
+F:\DotnetCore\SrvCornetBE\SrvCornet.Core\obj\Debug\netcoreapp2.1\SrvCornet.Core.AssemblyInfo.cs
