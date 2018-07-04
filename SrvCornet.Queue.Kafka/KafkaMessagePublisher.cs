@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using Confluent.Kafka;
-using Iken.Core;
 using NLog;
 using SrvCornet.Queue.Kafka;
+using SrvCornet.Utils;
 
 namespace Ikel.Common.Kafka
 {
@@ -18,17 +18,21 @@ namespace Ikel.Common.Kafka
         {
             this.producer = producer;
         }
-        public async Task<Message<string, string>> Publish(string topic, object obj)
+        public async Task<DeliveryReport<string, string>> Publish(string topic, object obj)
         {
             string payload = null;
             if (obj.GetType().Equals(typeof(string)))
                 payload = (string)obj;
             else
-                payload = SrvCornetJsonConverter.Serialize(obj);
+                payload = SnakeJsonConverter.Serialize(obj);
             try
             {
-                var message = await producer.ProduceAsync(topic, DateTime.Now.ToLongTimeString(), payload);
-                return message;
+                //var message = await producer.ProduceAsync(topic, DateTime.Now.ToLongTimeString(), payload);
+                var message = new Message<string, string>();
+                message.Key = DateTime.Now.ToLongTimeString();
+                message.Value = payload;
+                var deliveryReport = await producer.ProduceAsync(topic, message);
+                return deliveryReport;
             }
             catch(Exception e)
             {

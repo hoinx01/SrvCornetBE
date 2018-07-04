@@ -30,7 +30,7 @@ namespace SrvCornet.Queue.Kafka
                     Console.WriteLine(error);
                 };
                 var offsets = new List<long>();
-                consumer.OnMessage += async (obj, msg) =>
+                consumer.OnRecord += async (obj, msg) =>
                 {
                     lock (offsets)
                     {
@@ -42,7 +42,7 @@ namespace SrvCornet.Queue.Kafka
                         logger.Info(string.Format("topic: {0}, offset: {1}", msg.Topic, msg.Offset));
                         await processor.ProcessMessageAsync(msg);
                         consumer.StoreOffsets(new List<TopicPartitionOffset>() { new TopicPartitionOffset(msg.TopicPartition, msg.Offset) });
-                        var commitedOffset = await consumer.CommitAsync(msg);
+                        var commitedOffset = consumer.Commit(msg);
 
                         logger.Info(string.Format("topic: {0}, offset: {1} success", msg.Topic, msg.Offset));
                     }

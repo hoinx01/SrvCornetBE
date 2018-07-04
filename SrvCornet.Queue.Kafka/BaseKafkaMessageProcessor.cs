@@ -9,6 +9,6 @@ namespace SrvCornet.Queue.Kafka
     public abstract class BaseKafkaMessageProcessor
     {
         public abstract void ProcessError(Error error);
-        public abstract Task ProcessMessageAsync(Message<string, string> message);
+        public abstract Task ProcessMessageAsync(ConsumerRecord<string, string> message);
     }
 }

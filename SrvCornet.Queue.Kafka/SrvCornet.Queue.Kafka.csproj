@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SrvCornet.Json\SrvCornet.Json.csproj" />
+    <ProjectReference Include="..\SrvCornet.Utils\SrvCornet.Utils.csproj" />
   </ItemGroup>
 
 </Project>

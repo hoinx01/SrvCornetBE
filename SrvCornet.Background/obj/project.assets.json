@@ -914,6 +914,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://iken.nuget.com:10000/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

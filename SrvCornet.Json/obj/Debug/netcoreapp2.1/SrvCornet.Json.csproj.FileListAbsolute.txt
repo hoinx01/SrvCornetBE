@@ -1,9 +1,0 @@
-F:\DotnetCore\SrvCornetBE\SrvCornet.Json\bin\Debug\netcoreapp2.1\SrvCornet.Json.deps.json
-F:\DotnetCore\SrvCornetBE\SrvCornet.Json\bin\Debug\netcoreapp2.1\SrvCornet.Json.dll
-F:\DotnetCore\SrvCornetBE\SrvCornet.Json\obj\Debug\netcoreapp2.1\SrvCornet.Json.csproj.CoreCompileInputs.cache
-F:\DotnetCore\SrvCornetBE\SrvCornet.Json\obj\Debug\netcoreapp2.1\SrvCornet.Json.AssemblyInfoInputs.cache
-F:\DotnetCore\SrvCornetBE\SrvCornet.Json\obj\Debug\netcoreapp2.1\SrvCornet.Json.AssemblyInfo.cs
-F:\DotnetCore\SrvCornetBE\SrvCornet.Json\bin\Debug\netcoreapp2.1\SrvCornet.Json.pdb
-F:\DotnetCore\SrvCornetBE\SrvCornet.Json\obj\Debug\netcoreapp2.1\SrvCornet.Json.csprojAssemblyReference.cache
-F:\DotnetCore\SrvCornetBE\SrvCornet.Json\obj\Debug\netcoreapp2.1\SrvCornet.Json.dll
-F:\DotnetCore\SrvCornetBE\SrvCornet.Json\obj\Debug\netcoreapp2.1\SrvCornet.Json.pdb

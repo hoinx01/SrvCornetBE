@@ -1,39 +1,40 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "c2dfaaf2063ca81dbd7575624e414a2b41a102fb"
+    "signature": "cdc18d30a7faf2d8e2bb0caf2278ed7cf3ca58ff"
   },
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
       "SrvCornet.Queue.Kafka/1.0.0": {
         "dependencies": {
-          "Confluent.Kafka": "0.11.4",
+          "Confluent.Kafka": "1.0.0-experimental-4",
           "NLog": "4.5.6",
-          "SrvCornet.Json": "1.0.0"
+          "SrvCornet.Utils": "1.0.0"
         },
         "runtime": {
           "SrvCornet.Queue.Kafka.dll": {}
         }
       },
-      "Confluent.Kafka/0.11.4": {
+      "Confluent.Kafka/1.0.0-experimental-4": {
         "dependencies": {
           "System.Console": "4.3.0",
           "System.Linq": "4.3.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.0.0",
+          "System.Memory": "4.5.0-preview1-26216-02",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.0-preview1-26216-02",
           "System.Runtime.Extensions": "4.3.0",
           "System.Runtime.InteropServices": "4.3.0",
           "System.Threading": "4.3.0",
-          "librdkafka.redist": "0.11.4"
+          "librdkafka.redist": "0.11.5-PRE5"
         },
         "runtime": {
           "lib/netstandard1.3/Confluent.Kafka.dll": {
-            "assemblyVersion": "0.11.4.0",
-            "fileVersion": "0.11.4.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
           }
         }
       },
-      "librdkafka.redist/0.11.4": {
+      "librdkafka.redist/0.11.5-PRE5": {
         "runtimeTargets": {
           "runtimes/linux-x64/native/debian9-librdkafka.so": {
             "rid": "linux-x64",
@@ -146,6 +147,18 @@
           "System.Runtime.Extensions": "4.3.0"
         }
       },
+      "System.Memory/4.5.0-preview1-26216-02": {
+        "runtimeTargets": {
+          "runtime/unix/lib/_._": {
+            "rid": "unix",
+            "assetType": "runtime"
+          },
+          "runtime/win/lib/_._": {
+            "rid": "win",
+            "assetType": "runtime"
+          }
+        }
+      },
       "System.Reflection/4.3.0": {
         "dependencies": {
           "System.IO": "4.3.0",
@@ -166,13 +179,10 @@
         }
       },
       "System.Runtime/4.3.0": {},
-      "System.Runtime.CompilerServices.Unsafe/4.0.0": {
-        "dependencies": {
-          "System.Runtime": "4.3.0"
-        },
+      "System.Runtime.CompilerServices.Unsafe/4.5.0-preview1-26216-02": {
         "runtime": {
-          "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "assemblyVersion": "4.0.0.0",
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.4.0",
             "fileVersion": "0.0.0.0"
           }
         }
@@ -211,12 +221,12 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "SrvCornet.Json/1.0.0": {
+      "SrvCornet.Utils/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2"
         },
         "runtime": {
-          "SrvCornet.Json.dll": {}
+          "SrvCornet.Utils.dll": {}
         }
       }
     }
@@ -227,19 +237,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Confluent.Kafka/0.11.4": {
+    "Confluent.Kafka/1.0.0-experimental-4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-+SOy+WoPa02rB+wn1XTJJaIpnCLBtNLtEqy3c3efpjmgWVJn10N/PEI7Y82wzec4N4LSrG01FACT5AOOaWGsdw==",
-      "path": "confluent.kafka/0.11.4",
-      "hashPath": "confluent.kafka.0.11.4.nupkg.sha512"
+      "sha512": "sha512-YPwcpQYWV4ncypoplY+Bm3PWuG3IpLo0IiJJn+dreFLb09/E2Vn91YS2tQDEnZOs8vJkoaEjiRp5nifiG/E2CQ==",
+      "path": "confluent.kafka/1.0.0-experimental-4",
+      "hashPath": "confluent.kafka.1.0.0-experimental-4.nupkg.sha512"
     },
-    "librdkafka.redist/0.11.4": {
+    "librdkafka.redist/0.11.5-PRE5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7/tR5bBcwlNAnYpbcXh0gfsn492l8it0vrBY7qXCvZZ5SvJ8u3mF9jQVrYBoJeoKuue9UBqT/YjcEwkfOrkzZw==",
-      "path": "librdkafka.redist/0.11.4",
-      "hashPath": "librdkafka.redist.0.11.4.nupkg.sha512"
+      "sha512": "sha512-DdCa0X84YeFJTrez5KvseoaCtz2tUJxF3Vkys1tpqsik/vwCnaMtzyxKuI7TBXr1sk4HC72M6vvznMLmjLkqfQ==",
+      "path": "librdkafka.redist/0.11.5-pre5",
+      "hashPath": "librdkafka.redist.0.11.5-pre5.nupkg.sha512"
     },
     "Newtonsoft.Json/11.0.2": {
       "type": "package",
@@ -297,6 +307,13 @@
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
     },
+    "System.Memory/4.5.0-preview1-26216-02": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/qkNiTfseQ35guuSKxqw6cjEYnh+ijwI941QS5669VtTSSXOoyHWUO6JARIvSQ+A2yYFVdKEvTkKrMfaqdyOaw==",
+      "path": "system.memory/4.5.0-preview1-26216-02",
+      "hashPath": "system.memory.4.5.0-preview1-26216-02.nupkg.sha512"
+    },
     "System.Reflection/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -325,12 +342,12 @@
       "path": "system.runtime/4.3.0",
       "hashPath": "system.runtime.4.3.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.0.0": {
+    "System.Runtime.CompilerServices.Unsafe/4.5.0-preview1-26216-02": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LDvjxLx2fkThOFo/SC+901fJrh5artALmgzeSqnVxzvFp4q3HO8BkeLyshPdcbs5zpN7Xh9G23M6sDhgIPbG9A==",
-      "path": "system.runtime.compilerservices.unsafe/4.0.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.0.0.nupkg.sha512"
+      "sha512": "sha512-YH6QzLUg6VzyejRsW9no/xlulcpKjfOC27jWmijyhw8A42ldukXHQDSaE0CP+khK0m2iqAaXoQ0BU49FUDw7Lw==",
+      "path": "system.runtime.compilerservices.unsafe/4.5.0-preview1-26216-02",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.5.0-preview1-26216-02.nupkg.sha512"
     },
     "System.Runtime.Extensions/4.3.0": {
       "type": "package",
@@ -374,7 +391,7 @@
       "path": "system.threading.tasks/4.3.0",
       "hashPath": "system.threading.tasks.4.3.0.nupkg.sha512"
     },
-    "SrvCornet.Json/1.0.0": {
+    "SrvCornet.Utils/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
