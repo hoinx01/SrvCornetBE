@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Net;
 using System.Text;
-using Iken.Common.Http.Exceptions;
-using Iken.Common.Http.Models;
+using SrvCornet.Http.Exceptions;
+using SrvCornet.Http.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace Iken.Common.Http
+namespace SrvCornet.Http
 {
     public class CustomApiExceptionFilter : ExceptionFilterAttribute
     {

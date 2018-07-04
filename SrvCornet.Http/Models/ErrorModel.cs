@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 
-namespace Iken.Common.Http.Models
+namespace SrvCornet.Http.Models
 {
     public class ErrorModel
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.Extensions.Configuration;
 
-namespace Iken.Core
+namespace SrvCornet.Core
 {
     public class AppSettings
     {

@@ -6,9 +6,8 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "SrvCornet.Core/1.0.0": {
+      "SrvCornet.Core/1.0.1": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.Abstractions": "2.1.1",
           "Microsoft.Extensions.Configuration.Binder": "2.1.1"
         },
@@ -73,7 +72,7 @@
     }
   },
   "libraries": {
-    "SrvCornet.Core/1.0.0": {
+    "SrvCornet.Core/1.0.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

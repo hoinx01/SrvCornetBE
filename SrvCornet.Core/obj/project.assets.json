@@ -840,7 +840,6 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "Microsoft.Extensions.Configuration >= 2.1.1",
       "Microsoft.Extensions.Configuration.Abstractions >= 2.1.1",
       "Microsoft.Extensions.Configuration.Binder >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0"
@@ -851,7 +850,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "restore": {
       "projectUniqueName": "F:\\DotnetCore\\SrvCornetBE\\SrvCornet.Core\\SrvCornet.Core.csproj",
       "projectName": "SrvCornet.Core",
@@ -888,10 +887,6 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
-          "Microsoft.Extensions.Configuration": {
-            "target": "Package",
-            "version": "[2.1.1, )"
-          },
           "Microsoft.Extensions.Configuration.Abstractions": {
             "target": "Package",
             "version": "[2.1.1, )"

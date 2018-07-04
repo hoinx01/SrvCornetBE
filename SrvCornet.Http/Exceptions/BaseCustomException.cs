@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text;
 
-namespace Iken.Common.Http.Exceptions
+namespace SrvCornet.Http.Exceptions
 {
     public abstract class BaseCustomException : Exception
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SrvCornet.Background
+namespace SrvCornet.Core
 {
     public class DependencyManager
     {

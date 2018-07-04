@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Iken.Common.Http.Exceptions
+namespace SrvCornet.Http.Exceptions
 {
     public class ForbiddenException : BaseCustomException
     {
